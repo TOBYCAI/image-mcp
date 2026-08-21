@@ -3,6 +3,8 @@
 > 中文 | [English](./README.en.md)
 
 ![GitHub stars](https://img.shields.io/github/stars/TOBYCAI/image-mcp?style=flat-square&color=facc15)
+![Downloads](https://img.shields.io/github/downloads/TOBYCAI/image-mcp/total?style=flat-square&color=14b8a6)
+![Downloads@latest](https://img.shields.io/github/downloads/TOBYCAI/image-mcp/latest/total?style=flat-square&color=14b8a6)
 ![License](https://img.shields.io/badge/license-MIT-3b82f6?style=flat-square)
 ![MCP](https://img.shields.io/badge/MCP-stdio-4d6bfe?style=flat-square)
 
