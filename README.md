@@ -67,6 +67,11 @@ echo '{"jsonrpc":"2.0","id":1,"method":"tools/list","params":{}}' | python3 imag
 - 版本：JSON-RPC 2.0，Protocol `2025-03-26`。
 - `SERVER_NAME=dsh-image-mcp`，`SERVER_VERSION=0.1.0`。
 
+## 适配系统
+
+- **适配系统**：macOS / Windows / Linux（Python 3 + Pillow，跨平台）。
+- Windows 注意：命令用 `python`（而非 `python3`）；`args` 里的路径用绝对路径或反斜杠。
+
 ## License
 
 [MIT](./LICENSE) © TOBYCAI

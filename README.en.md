@@ -67,6 +67,11 @@ echo '{"jsonrpc":"2.0","id":1,"method":"tools/list","params":{}}' | python3 imag
 - Version: JSON-RPC 2.0, Protocol `2025-03-26`.
 - `SERVER_NAME=dsh-image-mcp`, `SERVER_VERSION=0.1.0`.
 
+## Supported platforms
+
+- **Supported platforms**: macOS / Windows / Linux (Python 3 + Pillow, cross-platform).
+- Windows note: use `python` instead of `python3` in the MCP config; use absolute or backslash paths in `args`.
+
 ## License
 
 [MIT](./LICENSE) © TOBYCAI
