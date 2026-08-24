@@ -7,7 +7,7 @@
 ![Downloads@latest](https://img.shields.io/github/downloads/TOBYCAI/image-mcp/latest/total?style=flat-square&color=14b8a6)
 ![License](https://img.shields.io/badge/license-MIT-3b82f6?style=flat-square)
 ![MCP](https://img.shields.io/badge/MCP-stdio-4d6bfe?style=flat-square)
-[![image-mcp MCP server](https://glama.ai/mcp/servers/TOBYCAI/image-mcp/badges/card.svg)](https://glama.ai/mcp/servers/TOBYCAI/image-mcp)
+[![Glama](https://img.shields.io/badge/Glama-MCP%20Server-4d6bfe?style=flat-square)](https://glama.ai/mcp/servers/TOBYCAI/image-mcp)
 
 基于 **Pillow** 的本地图片处理 MCP Server（离线、无需 API key）。通过 MCP 暴露一组图片工具给 DeepSeek Harness（或其他支持 stdio MCP 的客户端）：`info / resize / crop / convert / compress / rotate / flip / thumbnail / watermark / effects / placeholder / overlay`，共 **12** 个工具，模型可见工具名为 `mcp__images__*`。
 
@@ -17,6 +17,12 @@
 - **12 个图片工具**：信息 / 缩放 / 裁剪 / 转换 / 压缩 / 旋转 / 翻转 / 缩略图 / 水印 / 特效 / 占位图 / 叠加。
 - **协议标准**：JSON-RPC 2.0、按行分隔的 stdio MCP；所有日志走 stderr（stdout 专用于协议）。
 - **易于接入**：经 `@deepseek-ai/dsh-mcp-client` 一行配置即可挂进 DSH profile。
+
+## 质量评分（Glama）
+
+[![image-mcp MCP server](https://glama.ai/mcp/servers/TOBYCAI/image-mcp/badges/card.svg)](https://glama.ai/mcp/servers/TOBYCAI/image-mcp)
+
+> 质量分由 Glama 自动评估（TDQS 70% + Coherence 30%），出分后徽章自动显示等级。
 
 ## 安装与接入（DSH）
 
