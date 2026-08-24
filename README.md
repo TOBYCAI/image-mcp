@@ -7,6 +7,7 @@
 ![Downloads@latest](https://img.shields.io/github/downloads/TOBYCAI/image-mcp/latest/total?style=flat-square&color=14b8a6)
 ![License](https://img.shields.io/badge/license-MIT-3b82f6?style=flat-square)
 ![MCP](https://img.shields.io/badge/MCP-stdio-4d6bfe?style=flat-square)
+[![image-mcp MCP server](https://glama.ai/mcp/servers/TOBYCAI/image-mcp/badges/card.svg)](https://glama.ai/mcp/servers/TOBYCAI/image-mcp)
 
 基于 **Pillow** 的本地图片处理 MCP Server（离线、无需 API key）。通过 MCP 暴露一组图片工具给 DeepSeek Harness（或其他支持 stdio MCP 的客户端）：`info / resize / crop / convert / compress / rotate / flip / thumbnail / watermark / effects / placeholder / overlay`，共 **12** 个工具，模型可见工具名为 `mcp__images__*`。
 
