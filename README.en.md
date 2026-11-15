@@ -6,6 +6,7 @@
 ![Downloads](https://img.shields.io/github/downloads/TOBYCAI/image-mcp/total?style=flat-square&color=14b8a6)
 ![License](https://img.shields.io/badge/license-MIT-3b82f6?style=flat-square)
 ![MCP](https://img.shields.io/badge/MCP-stdio-4d6bfe?style=flat-square)
+[![Listed on MCP ServerList](https://mcp-serverlist.com/api/badge/image-mcp)](https://mcp-serverlist.com/mcp/image-mcp)
 
 A local, **Pillow-based** image-processing MCP server (offline, no API key). Via MCP it exposes a set of image tools to DeepSeek Harness (or any stdio-MCP client): `info / resize / crop / convert / compress / rotate / flip / thumbnail / watermark / effects / placeholder / overlay` — **12** tools, model-visible as `mcp__images__*`.
 
